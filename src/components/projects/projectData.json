@@ -1,0 +1,197 @@
+{
+    "university": [
+        {
+            "name": "HSoft Ecommerce Web Application",
+            "maintech": [
+                "PHP",
+                "Javascript",
+                "MySQL"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Learning Management System",
+            "maintech": [
+                "PHP",
+                "Javascript",
+                "MySQL"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Rest API for Employee Management",
+            "maintech": [
+                "Java EE",
+                "Javascript",
+                "MySQL",
+                "Hibernate"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Mini Super POS System",
+            "maintech": [
+                "Java",
+                "Java Swing",
+                "MySQL"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Note App - Cross Platform mobile app",
+            "maintech": [
+                "React Native",
+                "PHP",
+                "MySQL"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        }
+    ],
+    "self": [
+        {
+            "name": "Quiz App : Microservices",
+            "maintech": [
+                "Spring Boot",
+                "Java",
+                "PostgreSQL",
+                "Hibernate"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": " Ecommerce Web Application : Full-stack",
+            "maintech": [
+                "Spring Boot",
+                "Angular",
+                "Java",
+                "MySQL",
+                "Hibernate"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Todo Management App : Full-stack",
+            "maintech": [
+                "Spring Boot",
+                "React",
+                "Java",
+                "H2",
+                "Hibernate"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Todo Management App",
+            "maintech": [
+                "Spring Boot",
+                "JSP",
+                "Java",
+                "H2",
+                "Hibernate"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Rest API for Social media application",
+            "maintech": [
+                "Spring Boot",
+                "Java",
+                "H2",
+                "Hibernate"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Rest API for Contact management application",
+            "maintech": [
+                "MongoDB",
+                "Express.js",
+                "Node.js"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Currency Converter : Microservices",
+            "maintech": [
+                "Spring Boot",
+                "Java",
+                "H2",
+                "Hibernate"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Gamehub",
+            "maintech": [
+                "React",
+                "TypeScript",
+                "Chakra"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Own Porfolio",
+            "maintech": [
+                "React",
+                "Javascript",
+                "Scss",
+                "MUI"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        }
+    ],
+    "client": [
+        {
+            "name": "Sevana Constructions Website",
+            "maintech": [
+                "Bootstap",
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        },
+        {
+            "name": "Thisro glassworks Website",
+            "maintech": [
+                "Bootstap",
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "image": "",
+            "github": "",
+            "gitlab": ""
+        }
+    ]
+}

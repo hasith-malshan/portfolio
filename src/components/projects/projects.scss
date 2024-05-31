@@ -1,0 +1,82 @@
+@import '../../app.scss';
+
+.projects {
+  height: 100%;
+  .container {
+    .upperContainer {
+      padding-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+
+      @include mobile {
+        align-self: center;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 0px;
+        gap: 20px;
+      }
+      @include tablet {
+        padding-top: 0;
+      }
+
+      p {
+        text-align: right;
+        color: grey;
+        font-weight: 200;
+        font-size: 20px;
+        @include mobile {
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+      hr {
+        width: 500px;
+        border: none;
+        border-top: 0.5px solid grey;
+        @include mobile {
+          width: 300px;
+        }
+        @include tablet {
+          width: 300px;
+        }
+      }
+    }
+
+    .titleContainer {
+      h1 {
+        padding-top: 20px;
+        text-align: center;
+        color: orange;
+
+        @include mobile {
+          font-size: 60px;
+        }
+      }
+
+      hr {
+        height: 10px;
+        color: white;
+        background-color: white;
+        width: 20%;
+        margin: auto;
+      }
+    }
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      Card {
+        flex: 1;
+        CardMedia {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+@import '../../app.scss';
+
+.about {
+  .container {
+    .upperContainer {
+      padding-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+
+      @include mobile {
+        align-self: center;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 0px;
+        gap: 20px;
+      }
+      @include tablet {
+        padding-top: 0;
+      }
+
+      p {
+        text-align: right;
+        color: grey;
+        font-weight: 200;
+        font-size: 20px;
+        @include mobile {
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+      hr {
+        width: 500px;
+        border: none;
+        border-top: 0.5px solid grey;
+        @include mobile {
+          width: 300px;
+        }
+        @include tablet {
+          width: 300px;
+        }
+      }
+    }
+
+    .titleContainer {
+      h1 {
+        padding-top: 20px;
+        text-align: center;
+        color: orange;
+
+        @include mobile {
+          font-size: 60px;
+        }
+      }
+
+      hr {
+        height: 10px;
+        color: white;
+        background-color: white;
+        width: 20%;
+        margin: auto;
+      }
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 50px;
+      padding-top: 25px;
+
+      @include mobile {
+        flex-direction: column;
+      }
+
+      @include tablet {
+        flex-direction: column;
+      }
+
+      .imageWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex: 1;
+        width: 500px;
+        height: 500px;
+
+        @include tablet {
+          display: none;
+        }
+
+        img {
+          overflow: hidden;
+          object-fit: contain;
+        }
+      }
+
+      .textWrapper {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 25px;
+        padding-right: 50px;
+
+        @include mobile {
+          height: 500px;
+          overflow-y: scroll;
+          // padding-top: 30px;
+        }
+
+        @include tablet {
+          align-items: center;
+          padding-right: 0px;
+          padding: 20px;
+        }
+
+        h1 {
+          color: white;
+          font-size: 32px;
+          font-weight: normal;
+        }
+        p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
