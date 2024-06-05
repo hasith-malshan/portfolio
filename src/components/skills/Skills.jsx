@@ -3,14 +3,14 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   const varients = {
     initials: {
-      y: 200,
+      x: -500,
       opacity: 0,
     },
     animate: {
-      y: 0,
+      x: 0,
       opacity: 1,
       transition: {
-        duration: 0.25,
+        duration: 1,
         staggerChildren: 0.1,
       },
     },
@@ -36,7 +36,7 @@ const Skills = () => {
         className="textContainer"
         variants={varients}
         initial={'initials'}
-        whileInView={'animate'}
+        animate={'animate'}
       >
         <p>
           I have a confident understanding on these languages , frameworks and
@@ -48,7 +48,7 @@ const Skills = () => {
         className="iconContaner"
         variants={varients}
         initial={'initials'}
-        whileInView={'animate'}
+        animate={'animate'}
       >
         {/* Programming Languages*/}
         <div className="iconrow programmingIcons">
