@@ -75,27 +75,27 @@ const Contact = () => {
             </a>
           </div>
           <div className="item">
-            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+            <a href="tel:+9471-378-2924" target="_blank">
               <img src="/contactIcons/mobile.png" alt="" />
             </a>
-            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+            <a href="tel:+9471-378-2924" target="_blank">
               <span>+94 71 3782924</span>
             </a>
           </div>
           <div className="item">
-            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+            <a href="https://wa.me/+94713782924" target="_blank">
               <img src="/contactIcons/whatsapp.png" alt="" />
             </a>
-            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+            <a href="https://wa.me/+94713782924" target="_blank">
               <span>+94 71 3782924</span>
             </a>
           </div>
           <div className="item">
-            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+            <a href="https://www.instagram.com/hasith_m_r/" target="_blank">
               <img src="/contactIcons/instagram.png" alt="" />
             </a>
-            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
-              <span>Hasith Malshan</span>
+            <a href="https://www.instagram.com/hasith_m_r/" target="_blank">
+              <span>Hasith Malshan (hasith_m_r) </span>
             </a>
           </div>
         </div>
@@ -113,7 +113,7 @@ const Contact = () => {
           <input
             type="email"
             required
-            placeholder="email@email.com"
+            placeholder="johndoe@email.com"
             name="email"
           />
           <textarea
