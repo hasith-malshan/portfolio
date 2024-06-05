@@ -29,9 +29,32 @@
     gap: 40px;
 
     @include mobile {
+      flex: 1;
       gap: 20px;
       text-align: center;
       align-items: center;
+    }
+
+    .itemContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      @include mobile {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        @include mobile {
+          gap: 10px;
+          justify-content: center;
+        }
+      }
     }
 
     h1 {
@@ -49,10 +72,25 @@
       }
     }
 
-    span {
-      font-weight: 300;
-      @include mobile {
-        font-weight: normal;
+    .item {
+      a {
+        img {
+          height: 50px;
+          @include mobile {
+            height: 40px;
+            align-items: center;
+          }
+        }
+      }
+
+      a {
+        span {
+          font-weight: 300;
+          font-size: 24px;
+          @include mobile {
+            display: none;
+          }
+        }
       }
     }
   }
@@ -60,7 +98,10 @@
   .formContainer {
     flex: 1;
     position: relative;
+
     @include mobile {
+      padding-top: 50px;
+      flex: 3;
       width: 100%;
     }
 

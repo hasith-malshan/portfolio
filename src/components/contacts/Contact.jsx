@@ -56,17 +56,48 @@ const Contact = () => {
     >
       <div className="textContainer">
         <h1>Let's work together</h1>
-        <div className="item">
-          <h2>Email</h2>
-          <span>h.malshan.53@gmail.com</span>
-        </div>
-        <div className="item">
-          <h2>LinkedIn</h2>
-          <span>h.malshan.53@gmail.com</span>
-        </div>
-        <div className="item">
-          <h2>Phone</h2>
-          <span>h.malshan.53@gmail.com</span>
+
+        <div className="itemContainer">
+          <div className="item">
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <img src="/contactIcons/email.png" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <span>h.malshan.53@gmail.com</span>
+            </a>
+          </div>
+          <div className="item">
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <img src="/contactIcons/linkedin.png" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <span>Hasith Malshan</span>
+            </a>
+          </div>
+          <div className="item">
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <img src="/contactIcons/mobile.png" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <span>+94 71 3782924</span>
+            </a>
+          </div>
+          <div className="item">
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <img src="/contactIcons/whatsapp.png" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <span>+94 71 3782924</span>
+            </a>
+          </div>
+          <div className="item">
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <img src="/contactIcons/instagram.png" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/hasithmalshan" target="_blank">
+              <span>Hasith Malshan</span>
+            </a>
+          </div>
         </div>
       </div>
       <div className="formContainer">
