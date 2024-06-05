@@ -15,7 +15,7 @@ const Skills = () => {
       opacity: 1,
       transition: {
         duration: 1,
-        staggerChildren: 0.1,
+        staggerChildren: 0.2,
       },
     },
   };
@@ -62,17 +62,17 @@ const Skills = () => {
         animate={isInView ? 'animate' : ''}
       >
         {/* Programming Languages*/}
-        <div className="iconrow programmingIcons">
+        <motion.div className="iconrow programmingIcons" variants={varients}>
           <img src="skills_icons/java.webp" alt="java" />
           <img src="skills_icons/javascript.webp" alt="javascript" />
           <img src="skills_icons/typescript.webp" alt="typescript" />
           <img src="skills_icons/php.webp" alt="php" />
           <img src="skills_icons/python.webp" alt="python" />
           <img src="skills_icons/C++.webp" alt="c++" />
-        </div>
+        </motion.div>
 
         {/* Backend Development*/}
-        <div className="iconrow backendIcons">
+        <motion.div className="iconrow backendIcons" variants={varients}>
           <img src="skills_icons/springboot.webp" alt="springboot" />
           <img src="skills_icons/nodejs.webp" alt="node.js" />
           <img src="skills_icons/express.webp" alt="express.js" />
@@ -82,35 +82,35 @@ const Skills = () => {
             alt="hibernate"
             width={'50px'}
           />
-        </div>
+        </motion.div>
 
         {/* Frontend development*/}
-        <div className="iconrow ">
+        <motion.div className="iconrow " variants={varients}>
           <img src="skills_icons/react.webp" alt="react" />
           <img src="skills_icons/angular.png" alt="angular" />
           <img src="skills_icons/html.webp" alt="html" />
           <img src="skills_icons/css.webp" alt="css" />
           <img src="skills_icons/bootstrap.webp" alt="bootstrap" />
-        </div>
+        </motion.div>
 
         {/* Databases*/}
-        <div className="iconrow">
+        <motion.div className="iconrow" variants={varients}>
           <img src="skills_icons/mysql.webp" alt="mysql" />
           <img src="skills_icons/mongo-db.webp" alt="mongodb" />
           <img src="skills_icons/postgreSQL.webp" alt="postgreSQL" />
-        </div>
+        </motion.div>
 
         {/* Version Control*/}
-        <div className="iconrow">
+        <motion.div className="iconrow" variants={varients}>
           <img src="skills_icons/git.png" alt="git" />
           <img src="skills_icons/github.webp" alt="github" />
           <img src="skills_icons/gitlab.svg" alt="gitlab" />
-        </div>
+        </motion.div>
 
         {/* Cloud*/}
-        <div className="iconrow">
+        <motion.div className="iconrow" variants={varients}>
           <img src="skills_icons/aws.webp" alt="java" />
-        </div>
+        </motion.div>
       </motion.div>
     </div>
   );
