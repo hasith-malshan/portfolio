@@ -5,13 +5,15 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 const About = () => {
   const varients = {
     initials: {
-      y: 300,
+      x: -200,
+      opacity: 0,
     },
     animate: {
-      y: 0,
+      x: 0,
+      opacity: 1,
       transition: {
-        duration: 0.25,
-        staggerChildren: 0.1,
+        duration: 1,
+        staggerChildren: 0.2,
       },
     },
   };
@@ -36,13 +38,15 @@ const About = () => {
           initial={'initials'}
           whileInView={'animate'}
         >
-          <div className="imageWrapper">
-            <img src="me_2.jpg" alt="" />
-          </div>
-          <div className="textWrapper">
-            <h1>Hasith Malshan Rathnayake</h1>
-            <p>I'm a Full-stack developer and a Java developer.</p>
-            <p>
+          <motion.div className="imageWrapper" variants={varients}>
+            <motion.img src="me_2.jpg" alt="" variants={varients} />
+          </motion.div>
+          <motion.div className="textWrapper" variants={varients}>
+            <motion.h1>Hasith Malshan Rathnayake</motion.h1>
+            <motion.p>
+              I'm a Full-stack developer and a Java developer.
+            </motion.p>
+            <motion.p>
               Currently I’m a student of Java Institute for Advanced Technology
               where I have gained a solid foundation in programming languages
               like Java, JavaScript, and PHP and Databases like MySQL. I have a
@@ -51,8 +55,8 @@ const About = () => {
               technical skills like Angular, React and Spring Boot and I take an
               active approach to learning and enjoy keeping up with the most
               recent advancements in software engineering.
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </motion.div>
       </div>
     </div>
