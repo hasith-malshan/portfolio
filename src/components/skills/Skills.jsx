@@ -1,9 +1,13 @@
+import { useRef } from 'react';
 import './skills.scss';
-import { motion } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
+
 const Skills = () => {
+  const ref = useRef();
+  const isInView = useInView(ref, { once: false });
   const varients = {
     initials: {
-      x: -500,
+      x: -200,
       opacity: 0,
     },
     animate: {
@@ -26,17 +30,23 @@ const Skills = () => {
         <hr />
       </div>
       {/* </div> */}
-      <div className="titleContainer">
+      <motion.div
+        ref={ref}
+        variants={varients}
+        initial={'initials'}
+        animate={isInView ? 'animate' : ''}
+        className="titleContainer"
+      >
         <h1 style={{ textAlign: 'center', color: 'orange' }}>
           Technical Skills
         </h1>
         <hr />
-      </div>
+      </motion.div>
       <motion.div
         className="textContainer"
         variants={varients}
         initial={'initials'}
-        animate={'animate'}
+        animate={isInView ? 'animate' : ''}
       >
         <p>
           I have a confident understanding on these languages , frameworks and
@@ -45,10 +55,11 @@ const Skills = () => {
         </p>
       </motion.div>
       <motion.div
+        ref={ref}
         className="iconContaner"
         variants={varients}
         initial={'initials'}
-        animate={'animate'}
+        animate={isInView ? 'animate' : ''}
       >
         {/* Programming Languages*/}
         <div className="iconrow programmingIcons">
