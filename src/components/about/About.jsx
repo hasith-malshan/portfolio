@@ -44,17 +44,27 @@ const About = () => {
           <motion.div className="textWrapper" variants={varients}>
             <motion.h1>Hasith Malshan Rathnayake</motion.h1>
             <motion.p>
-              I'm a Full-stack developer and a Java developer.
+              Hello! I'm Hasith Malshan, a passionate Full-stack Developer with
+              a keen interest in Java-based development and proficiency in the
+              MERN stack. My journey in the world of programming has been both
+              educational and exploratory, allowing me to build a robust skill
+              set in languages such as Java, JavaScript, and PHP. My expertise
+              is further complemented by my knowledge of databases like MySQL.
+              As someone who thrives on solving complex problems, I have a deep
+              understanding of object-oriented programming concepts, data
+              structures, and algorithms, which form the backbone of my
+              development approach.
             </motion.p>
             <motion.p>
-              Currently I’m a student of Java Institute for Advanced Technology
-              where I have gained a solid foundation in programming languages
-              like Java, JavaScript, and PHP and Databases like MySQL. I have a
-              solid understanding of Object Oriented programming concepts, data
-              structures, and algorithms. Apart from that I have self-learned
-              technical skills like Angular, React and Spring Boot and I take an
-              active approach to learning and enjoy keeping up with the most
-              recent advancements in software engineering.
+              Currently, I am a dedicated student at the Java Institute for
+              Advanced Technology, where I have gained a strong foundation in
+              various programming languages and technologies. Beyond the
+              classroom, I am a proactive self-learner, continually expanding my
+              technical skills to stay abreast of the latest advancements in
+              software engineering. My commitment to learning and my enthusiasm
+              for technology drive me to constantly improve and innovate,
+              ensuring that I remain at the forefront of the ever-evolving tech
+              landscape.
             </motion.p>
           </motion.div>
         </motion.div>
