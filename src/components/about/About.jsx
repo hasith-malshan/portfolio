@@ -5,15 +5,12 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 const About = () => {
   const varients = {
     initials: {
-      x: -200,
       opacity: 0,
     },
     animate: {
-      x: 0,
       opacity: 1,
       transition: {
         duration: 1,
-        staggerChildren: 0.1,
       },
     },
   };
