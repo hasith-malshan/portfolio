@@ -7,15 +7,15 @@ const Skills = () => {
   const isInView = useInView(ref, { once: false });
   const varients = {
     initials: {
-      x: -200,
+      // x: -200,
       opacity: 0,
     },
     animate: {
-      x: 0,
+      // x: 0,
       opacity: 1,
       transition: {
         duration: 1,
-        staggerChildren: 0.2,
+        staggerChildren: 0.1,
       },
     },
   };
