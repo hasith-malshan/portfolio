@@ -59,12 +59,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: 'lightgray', color: 'black' }}
         >
-          <h2>Branding</h2>
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Boost your brand awareness and elevate your business status with a
+            professional website. It's the easiest way to showcase who you are,
+            connect with your audience, and make a lasting impression in the
+            digital world.
           </p>
           <button>click me</button>
         </motion.div>
@@ -72,12 +72,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: 'lightgray', color: 'black' }}
         >
-          <h2>Branding</h2>
+          <h2>Software Developmemnt</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Enhance your workflow with softwares and web applications.
+            Efficiently manage data and streamline tasks, making you a modern
+            professional in the digital era. Embrace the future with advanced
+            solutions tailored to your needs.
           </p>
           <button>click me</button>
         </motion.div>
@@ -85,12 +85,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: 'lightgray', color: 'black' }}
         >
-          <h2>Branding</h2>
+          <h2>Social Media Marketing</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Boost your brand awareness and easily reach customers with social
+            media marketing. Engage with your audience, increase visibility, and
+            drive growth effortlessly in the digital landscape.
           </p>
           <button>click me</button>
         </motion.div>
