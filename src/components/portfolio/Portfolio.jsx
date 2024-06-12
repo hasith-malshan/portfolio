@@ -11,7 +11,7 @@ const items = [
     image:
       'https://images.pexels.com/photos/23533610/pexels-photo-23533610/free-photo-of-the-tall-dark-and-handsome-oes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      'These self-taught projects reflect my unwavering passion for web development and programming. I’ve delved into various facets, including mastering MVC architecture, building microservices, crafting RESTful APIs, and exploring modern front-end frameworks. My commitment to continuous learning drives me to seek out new challenges and expand my skill set. With each project, I embrace the opportunity to learn, create, and contribute to the ever-evolving world of technology.',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const items = [
     image:
       'https://images.pexels.com/photos/23533610/pexels-photo-23533610/free-photo-of-the-tall-dark-and-handsome-oes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      'University projects play a crucial role in enhancing practical skills by allowing us to apply theoretical knowledge. During my studies, I gained a solid foundation in programming languages such as Java, JavaScript, and PHP, along with experience working with databases like MySQL. These projects have not only honed my technical abilities but also fostered problem-solving skills and creativity.',
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const items = [
     image:
       'https://images.pexels.com/photos/23533610/pexels-photo-23533610/free-photo-of-the-tall-dark-and-handsome-oes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      'Working with clients provided a unique experience compared to university projects. While it was occasionally challenging, it significantly improved my communication skills, collaboration abilities, and other soft skills. Ultimately, I’m pleased that I could deliver the product they required.',
   },
 ];
 
@@ -46,7 +46,7 @@ const Single = ({ item }) => {
             <p>{item.description}</p>
             {console.log(item.link)}
             <Link to={item.link}>
-              <button>Link Check Github</button>
+              <button>Check Projects</button>
             </Link>
           </motion.div>
         </div>
