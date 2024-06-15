@@ -39,7 +39,6 @@ const About = () => {
             <motion.img src="me_2.jpg" alt="" variants={varients} />
           </motion.div>
           <motion.div className="textWrapper" variants={varients}>
-            <motion.h1>Hasith Malshan Rathnayake</motion.h1>
             <motion.p>
               Hello! I'm Hasith Malshan, a passionate Full-stack Developer with
               a keen interest in Java-based development and proficiency in the
