@@ -15,9 +15,7 @@
     gap: 20px;
 
     @include mobile {
-      align-self: center;
-      text-align: center;
-      flex-direction: column;
+      display: none;
     }
 
     p {
@@ -49,6 +47,7 @@
     flex-direction: column;
 
     @include mobile {
+      display: none;
       width: 100%;
     }
     .title {
@@ -155,11 +154,11 @@
       p {
         text-align: justify;
         @include mobile {
-          display: none;
+          padding: 10px;
         }
 
         @include tablet {
-          display: none;
+          padding: 10px;
         }
       }
 

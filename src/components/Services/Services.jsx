@@ -40,6 +40,7 @@ const Services = () => {
         </p>
         <hr />
       </div>
+
       <motion.div className="titleContainer">
         <div className="title">
           <img src="/people.webp" alt="" />
@@ -54,6 +55,7 @@ const Services = () => {
           <button>WHAT I DO?</button>
         </div>
       </motion.div>
+
       <motion.div className="listContainer">
         <motion.div
           className="box"
