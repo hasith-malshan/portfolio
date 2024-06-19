@@ -1,119 +1,162 @@
 @import '../../app.scss';
 
 .skills {
-  .upperContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-    padding-top: 100px;
-
+  .view1 {
     @include mobile {
-      align-self: center;
-      text-align: center;
-      flex-direction: column;
-      padding-top: 0px;
-      gap: 20px;
+      display: none;
     }
-
-    p {
-      text-align: right;
-      color: grey;
-      font-weight: 200;
-      font-size: 20px;
-      @include mobile {
-        text-align: center;
-        margin-top: 10px;
-      }
-    }
-    hr {
-      width: 500px;
-      border: none;
-      border-top: 0.5px solid grey;
-      @include mobile {
-        width: 300px;
-      }
-    }
-  }
-
-  .titleContainer {
-    h1 {
-      padding-top: 20px;
-      text-align: center;
-      color: orange;
-
-      @include mobile {
-        font-size: 50px;
-      }
-    }
-
-    hr {
-      height: 10px;
-      color: white;
-      background-color: white;
-      width: 20%;
-      margin: auto;
-    }
-  }
-
-  .textContainer {
-    p {
-      font-size: 20px;
-      text-align: center;
-      padding-top: 20px;
-      @include mobile {
-        font-size: 16px;
-        padding: 10px;
-        padding-top: 20px;
-      }
-    }
-  }
-
-  .iconContaner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding-top: 30px;
-
-    @include mobile {
-      justify-content: center;
-      overflow-y: auto;
-    }
-
-    .iconrow {
+    .upperContainer {
       display: flex;
-      gap: 30px;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+      padding-top: 100px;
 
-      @include mobile {
-        gap: 20px;
-      }
-
-      img {
-        width: 60px;
-        height: auto;
-
+      p {
+        text-align: right;
+        color: grey;
+        font-weight: 200;
+        font-size: 20px;
         @include mobile {
-          width: 40px;
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+      hr {
+        width: 500px;
+        border: none;
+        border-top: 0.5px solid grey;
+        @include mobile {
+          width: 300px;
         }
       }
     }
 
-    .programmingIcons {
-      display: flex;
-      justify-content: space-between;
-      width: 40%;
-      @include mobile {
-        width: auto;
+    .titleContainer {
+      h1 {
+        padding-top: 20px;
+        text-align: center;
+        color: orange;
+
+        @include mobile {
+          padding-top: 90px;
+          font-size: 50px;
+        }
+      }
+
+      hr {
+        height: 10px;
+        color: white;
+        background-color: white;
+        width: 20%;
+        margin: auto;
       }
     }
 
-    .backendIcons {
+    .textContainer {
+      p {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        @include mobile {
+          font-size: 16px;
+          padding: 10px;
+          padding-top: 20px;
+        }
+      }
+    }
+
+    .iconContaner {
       display: flex;
-      justify-content: space-between;
-      width: 30%;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding-top: 30px;
+      overflow: hidden;
+
       @include mobile {
-        width: auto;
+        display: none;
+        justify-content: center;
+        overflow-y: auto;
+      }
+
+      .iconrow {
+        display: flex;
+        gap: 30px;
+
+        @include mobile {
+          gap: 20px;
+        }
+
+        img {
+          width: 60px;
+          height: auto;
+
+          @include mobile {
+            width: 40px;
+          }
+        }
+      }
+
+      .programmingIcons {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        @include mobile {
+          width: auto;
+        }
+      }
+
+      .backendIcons {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        @include mobile {
+          width: auto;
+        }
+      }
+    }
+  }
+
+  .view2 {
+    display: none;
+
+    @include mobile {
+      display: contents;
+    }
+
+    .titleContainer2 {
+      h1 {
+        padding-top: 20px;
+        text-align: center;
+        color: orange;
+
+        @include mobile {
+          padding-top: 90px;
+          font-size: 50px;
+        }
+      }
+
+      hr {
+        height: 10px;
+        color: white;
+        background-color: white;
+        width: 20%;
+        margin: auto;
+      }
+    }
+    .iconContainerMobile {
+      display: none;
+
+      @include mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 10px;
+        img {
+          width: 45px;
+        }
       }
     }
   }
