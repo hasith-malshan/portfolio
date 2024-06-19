@@ -1,163 +1,105 @@
 @import '../../app.scss';
 
 .skills {
-  .view1 {
+  .upperContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-top: 100px;
+
     @include mobile {
       display: none;
     }
-    .upperContainer {
-      display: flex;
-      flex-direction: row;
-      justify-content: end;
-      align-items: center;
-      padding-top: 100px;
 
-      p {
-        text-align: right;
-        color: grey;
-        font-weight: 200;
-        font-size: 20px;
-        @include mobile {
-          text-align: center;
-          margin-top: 10px;
-        }
-      }
-      hr {
-        width: 500px;
-        border: none;
-        border-top: 0.5px solid grey;
-        @include mobile {
-          width: 300px;
-        }
-      }
-    }
-
-    .titleContainer {
-      h1 {
-        padding-top: 20px;
-        text-align: center;
-        color: orange;
-
-        @include mobile {
-          padding-top: 90px;
-          font-size: 50px;
-        }
-      }
-
-      hr {
-        height: 10px;
-        color: white;
-        background-color: white;
-        width: 20%;
-        margin: auto;
-      }
-    }
-
-    .textContainer {
-      p {
-        font-size: 20px;
-        text-align: center;
-        padding-top: 20px;
-        @include mobile {
-          font-size: 16px;
-          padding: 10px;
-          padding-top: 20px;
-        }
-      }
-    }
-
-    .iconContaner {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-      padding-top: 30px;
-      overflow: hidden;
-
+    p {
+      text-align: right;
+      color: grey;
+      font-weight: 200;
+      font-size: 20px;
       @include mobile {
-        display: none;
-        justify-content: center;
-        overflow-y: auto;
+        text-align: center;
+        margin-top: 10px;
       }
-
-      .iconrow {
-        display: flex;
-        gap: 30px;
-
-        @include mobile {
-          gap: 20px;
-        }
-
-        img {
-          width: 60px;
-          height: auto;
-
-          @include mobile {
-            width: 40px;
-          }
-        }
-      }
-
-      .programmingIcons {
-        display: flex;
-        justify-content: space-between;
-        width: 40%;
-        @include mobile {
-          width: auto;
-        }
-      }
-
-      .backendIcons {
-        display: flex;
-        justify-content: space-between;
-        width: 30%;
-        @include mobile {
-          width: auto;
-        }
+    }
+    hr {
+      width: 500px;
+      border: none;
+      border-top: 0.5px solid grey;
+      @include mobile {
+        width: 300px;
       }
     }
   }
 
-  .view2 {
-    display: none;
-
-    @include mobile {
-      display: contents;
-    }
-
-    .titleContainer2 {
-      h1 {
-        padding-top: 20px;
-        text-align: center;
-        color: orange;
-
-        @include mobile {
-          padding-top: 90px;
-          font-size: 50px;
-        }
-      }
-
-      hr {
-        height: 10px;
-        color: white;
-        background-color: white;
-        width: 20%;
-        margin: auto;
-      }
-    }
-    .iconContainerMobile {
-      display: none;
+  .titleContainer {
+    h1 {
+      padding-top: 20px;
+      text-align: center;
+      color: orange;
 
       @include mobile {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 30px;
+        padding-top: 90px;
+        font-size: 50px;
+      }
+    }
+
+    hr {
+      height: 10px;
+      color: white;
+      background-color: white;
+      width: 20%;
+      margin: auto;
+    }
+  }
+
+  .textContainer {
+    p {
+      font-size: 20px;
+      text-align: center;
+      padding-top: 20px;
+      @include mobile {
+        font-size: 16px;
         padding: 10px;
-        img {
-          width: 45px;
-        }
+        padding-top: 20px;
+      }
+    }
+  }
+
+  .iconContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+    gap: 60px;
+    padding-top: 20px;
+
+    img {
+      width: 60px;
+    }
+    @include mobile {
+      width: 90%;
+      gap: 30px;
+
+      img {
+        width: 40px;
       }
     }
   }
 }
+
+// .iconContainerMobile {
+//   display: none;
+
+//   @include mobile {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     gap: 30px;
+//     padding: 10px;
+//     img {
+//       width: 45px;
+//     }
+//   }
+// }
